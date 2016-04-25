@@ -232,5 +232,7 @@ else
 
 fi
 
+echo ; echo ;
+echo ####################;
 echo "Compiling complete." | step
 
