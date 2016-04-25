@@ -234,5 +234,14 @@ fi
 
 echo ; echo ;
 echo ####################;
+echo ####################;
+echo ;
 echo "Compiling complete." | step
+
+echo "Start GrandOrgue by finding the executable here:";
+echo "$fullPath/goBuild/bin/GrandOrgue";
+echo ;
+
+
+
 
