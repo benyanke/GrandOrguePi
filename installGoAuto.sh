@@ -1,4 +1,4 @@
-v#!/bin/bash
+#!/bin/bash
 
 ########################
 # GrandOrgue installer for Raspberry Pi
