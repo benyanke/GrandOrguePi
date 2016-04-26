@@ -43,10 +43,6 @@ clear;
 
 fullPath=$(pwd)
 
-
-#start comment
-#: '
-
 echo ;
 echo "GRANDORGUE INSTALLER FOR RASPBERRY PI";
 echo ;
@@ -137,9 +133,6 @@ if [ $? -ne 0 ]; then
 fi
 
 
-# Could also use:
-
-
 echo "Upgrading needed packages." | step
 apt-get upgrade -y  > /dev/null 2>&1
 
@@ -148,25 +141,18 @@ if [ $? -ne 0 ]; then
 	exit 1
 fi
 
-#echo "done.";
-#exit;
-
-#'
-# end comment
 
 echo "Prepping with cmake for compiling." | step
 
 rm -rf $fullPath/goBuild
 
  /usr/bin/cmake -B$fullPath/goBuild -H$fullPath/goSrc -DUNICODE=0 -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" > /dev/null 2>&1
-# /usr/bin/cmake -B$fullPath/goBuild -H$fullPath/goSrc -DUNICODE=0 -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles"
 
 if [ $? -ne 0 ]; then
         echo "Cmake failed. Trying with ansi instead of unicode." | subStep
 	rm -rf $fullPath/goBuild
 
         /usr/bin/cmake -B$fullPath/goBuild -H$fullPath/goSrc -DUNICODE=1 -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" > /dev/null 2>&1
-#        /usr/bin/cmake -B$fullPath/goBuild -H$fullPath/goSrc -DUNICODE=1 -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles"
 
         if [ $? -ne 0 ]; then
                 echo "Cmake prep failed. GrandOrgue could not be installed." | subStep
