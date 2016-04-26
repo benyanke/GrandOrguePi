@@ -21,3 +21,11 @@ Miscellany
 * This has been tested on the Raspberry Pi 3. No tests on the slower Pi 2 and 1 have been done at this time.
 * The only midi interface I own ([LINK] (http://amzn.to/1TanhaX)) worked perfectly as soon as I plugged in. YMMV with other interfaces.
 * The built in Raspberry Pi sound card is not very high quality. I highly suggest getting a higher quality one if you plan to use this in public.
+
+
+Suggested Settings
+-------------
+
+There are a number of things which are not required for Grand Orgue to work, but are reccomended:
+* Run "sudo raspi-config" and ensure that audio is forced through the soundcard, not the HDMI..
+* _More to be added later_
