@@ -14,13 +14,12 @@
 # Functions
 ########################
 
-#neither of thes eused right now
-
-# line counter for steps
+# Perhaps build in more functionality into these functions later
 
 step() { sed 's/^/[] /'; }
 subStep() { sed 's/^/      /'; }
 
+# in progress
 stepStatus() {
 	if [ $1=="1" ]; then
 		echo "Success";
@@ -49,7 +48,8 @@ echo ;
 echo "This has been tested on the Pi3";
 echo "running a clean Raspian Jesse install (03-18-2016 build).";
 echo ;
-echo "Use at your own risk elsewhere.";
+echo "For more information, visit:";
+echo "https://github.com/benyanke/GrandOrguePi";
 echo ;
 echo "########################"
 echo ;
