@@ -228,6 +228,5 @@ echo "Start GrandOrgue by finding the executable here:";
 echo "$fullPath/goBuild/bin/GrandOrgue";
 echo ;
 
-
-
-
+# Create link on desktop
+/bin/ln -i $fullPath/goBuild/bin/GrandOrgue /home/$USER/Desktop/GrandOrgue
