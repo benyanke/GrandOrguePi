@@ -8,8 +8,10 @@ Need GrandOrgue to power your portable setup? This is just what you need. GrandO
 3. Prepares sourcecode to compile (cmake)
 4. Compiles the source code (make)
 
-To use this bash script, please begin with a new install of Raspian, then run:
+To use this bash script, please begin with a new install of Raspian, ensure it is connected to the internet, then run:
 
     wget https://git.io/vwgOA -O installGoAuto.sh
     chmod +x installGoAuto.sh
     sudo ./installGoAuto.sh
+
+_Do be warned, the compiling process can take several hours, and the initial prep process can take 10-20 minutes._
