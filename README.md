@@ -14,4 +14,4 @@ To use this bash script, please begin with a new install of Raspian, ensure it i
     chmod +x installGoAuto.sh
     sudo ./installGoAuto.sh
 
-_Do be warned, the compiling process can take several hours, and the initial prep process can take 10-20 minutes._
+_Note: the initial prep process can take 10-20 minutes, and the compiling process itself can take an hour or more._
