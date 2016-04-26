@@ -15,7 +15,7 @@ To use this bash script, please begin with a new install of Raspian, and ensure 
     sudo ./installGoAuto.sh
 
 
-Miscelany
+Miscellany
 ------------
 * The initial prep process can take 10-20 minutes, and the compiling process itself can take an hour or more.
 * This has been tested on the Raspberry Pi 3. No tests on the slower Pi 2 and 1 have been done at this time.
