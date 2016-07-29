@@ -1,7 +1,7 @@
 GrandOrgue Compiler Script for Raspberry Pi
 ==============
 
-Need GrandOrgue to power your portable setup? GrandOrgue doesn't have native binaries for the Raspberry Pi, and compiling your own is a pain. Not with this automated script! This bash script does the following, in an automated manner:
+Need GrandOrgue to power your portable setup? GrandOrgue doesn't have native binaries for the Raspberry Pi, and compiling your own is a pain. Not with this automated script! This bash script does the following:
 
 1. Gets the most recent version of the source code from GitHub ([Repository here](https://github.com/e9925248/grandorgue))
 2. Installs the packages needed for compiling (apt-get install ....)
