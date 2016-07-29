@@ -1,4 +1,4 @@
-GrandOrgue Compiler for Raspberry Pi
+GrandOrgue Compiler Script for Raspberry Pi
 ==============
 
 Need GrandOrgue to power your portable setup? GrandOrgue doesn't have native binaries for the Raspberry Pi, but this fixes that! This bash script does the following, in an automated manner:
