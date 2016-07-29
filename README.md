@@ -9,9 +9,9 @@ Need GrandOrgue to power your portable setup? GrandOrgue doesn't have native bin
 4. Compiles the source code (make)
 
 To use this bash script, please begin with a new install of Raspian, and ensure it is connected to the internet. Once that is complete, run the bash script provided here using this single command:
-
+````
     wget https://git.io/vwgOA -O installGoAuto.sh && chmod +x installGoAuto.sh && sudo ./installGoAuto.sh
-
+````
 Miscellany
 ------------
 * The initial prep process can take 10-20 minutes, and the compiling process itself can take an hour or more.
