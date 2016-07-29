@@ -10,7 +10,7 @@ Need GrandOrgue to power your portable setup? GrandOrgue doesn't have native bin
 
 To use this bash script, please begin with a new install of Raspian, and ensure it is connected to the internet. Once that is complete, run the bash script provided here using this single command:
 ````
-    wget https://git.io/vwgOA -O installGoAuto.sh && chmod +x installGoAuto.sh && sudo ./installGoAuto.sh
+wget https://git.io/vwgOA -O installGoAuto.sh && chmod +x installGoAuto.sh && sudo ./installGoAuto.sh
 ````
 Miscellany
 ------------
