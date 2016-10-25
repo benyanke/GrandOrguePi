@@ -23,4 +23,4 @@ Suggested Settings
 -------------
 
 There are a number of things which are not required for Grand Orgue to work, but are reccomended:
-* Run "sudo raspi-config" and ensure that audio is forced through the soundcard, not the HDMI..
+* Run "sudo raspi-config" and ensure that audio is forced through the soundcard, not the HDMI.
