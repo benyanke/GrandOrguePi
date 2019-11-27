@@ -1,3 +1,9 @@
+PROJECT ARCHIVED
+==============
+
+This project is no longer maintained. However, one promising fork is found at https://github.com/djbottrill/GrandOrguePi
+
+
 GrandOrgue Compiler Script for Raspberry Pi
 ==============
 
